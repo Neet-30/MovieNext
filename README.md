@@ -1,8 +1,11 @@
-# MovieNext
+# MovieNext 🎬 ( a movie recommendation system )
 
-# 🎬 Movie Recommendation System
+## Overview
+This project is a **movie recommendation system** built with **Streamlit** and powered by a **machine learning model**.  
+It recommends movies based on a selected title using **cosine similarity** and displays movie posters fetched from the **TMDB API**.
 
-A content-based movie recommendation app built using **Streamlit**, **Python**, and **TMDB API**.
+Dataset is [HERE](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata)
+Some files due to their large sizes are uploaded [HERE](https://huggingface.co/spaces/neet30/MovieNext/tree/main)
 
 ## 🚀 Features
 - Get top 10 movie recommendations based on similarity.
@@ -15,9 +18,19 @@ A content-based movie recommendation app built using **Streamlit**, **Python**, 
 - scikit-learn
 - TMDB API
 
-## ⚙️ How to Run Locally
-```bash
-git clone https://github.com/Neet-30/Movie-Recommender.git
-cd Movie-Recommender
-pip install -r requirements.txt
-streamlit run app.py
+## Usage
+
+1. Run the Streamlit app:
+    ```bash
+    streamlit run app.py
+    ```
+
+2. Open your web browser and go to `http://localhost:8501`.
+
+3. Select a movie from the dropdown list and click "Recommend" to get the top 10 recommended movies along with their posters.
+
+## Results
+
+The system provides the top 10 recommended movies for any selected movie title. It also fetches and displays the posters of these recommended movies using the TMDB API.
+<img width="1485" height="891" alt="image" src="https://github.com/user-attachments/assets/ed0cf10a-d025-4a22-b0db-f748c076ebbb" />
+
